@@ -18,16 +18,3 @@ The following acoustic characteristics are extracted using the `librosa` library
 * **Mel-Frequency Cepstral Coefficients (MFCC):** Used to represent the timbre and spectral envelope of the sound.
 * **Zero-Crossing Rate (ZCR):** Measures the rate of sign-changes in the signal, which is critical for identifying high-frequency content and noise (common in overheads and snares).
 * **Spectral Centroid:** Indicates where the "center of mass" of the spectrum is located, helping the model differentiate between low-frequency sounds (Kicks/Toms) and high-frequency sounds (Overheads).
-
-## System Requirements
-
-The project is developed in Python 3. The following dependencies are required:
-
-* `librosa`: For audio signal processing and analysis.
-* `numpy`: For numerical computation and matrix handling.
-* `scikit-learn`: For the SVM model implementation, data scaling, and evaluation metrics.
-
-Install the dependencies using:
-
-```bash
-pip install librosa numpy scikit-learn
